@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Receitas com Vinhos M.Silva</title>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: #8B1A1A url("A_seamless_vector_pattern_on_a_warm_red_background.png") repeat;
+      background-size: 400px;
+      font-family: 'League Spartan', sans-serif;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+      animation: fadeInPage 1.2s ease-in-out;
+    }
+    @keyframes fadeInPage {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .logo {
+      max-width: 140px;
+      width: 100%;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+    p {
+      max-width: 600px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin: 1rem 0;
+    }
+    .btn-download {
+      background: #fff;
+      color: #8B1A1A;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 30px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      margin-top: 1.5rem;
+    }
+    .btn-download:hover {
+      background: #f0e6e6;
+    }
+    .btn-download svg {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+      .logo {
+        max-width: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="LOGO.png" alt="Logo M.Silva" class="logo animate__animated animate__fadeInDown" />
+
+  <h1 class="animate__animated animate__fadeInUp animate__delay-1s">Seja bem-vindo(a) à mesa!</h1>
+
+  <p class="animate__animated animate__fadeInUp animate__delay-2s">
+    Este e-book é mais do que um livro de receitas — é um convite para mergulhar em memórias, sabores e histórias que aquecem o coração.
+  </p>
+  <p class="animate__animated animate__fadeInUp animate__delay-3s">
+    Das geleias feitas no tacho ao licor servido com carinho, cada página carrega o aroma do quintal, o cuidado das mãos que preparam e o amor que une gerações.
+  </p>
+  <p class="animate__animated animate__fadeInUp animate__delay-4s">
+    Aqui, cada receita é uma lembrança viva, cada ingrediente é um elo com quem amamos. Que o aroma destas páginas te leve de volta pra onde mora o amor.
+  </p>
+
+  <a href="ebook-msilva.pdf" class="btn-download animate__animated animate__fadeInUp animate__delay-5s">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a2 2 0 002 2h12a2 2 0 002-2v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+    </svg>
+    Baixar e-book
+  </a>
+</body>
+</html>
